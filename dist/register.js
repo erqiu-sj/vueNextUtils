@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.setupImageLazyLoading = exports.setupBus = void 0;
+exports.setupScrollScreen = exports.setupImageLazyLoading = exports.setupBus = void 0;
 var bus_1 = require("./communication/bus");
 var imageLazyLoading_1 = require("./directive/imageLazyLoading");
+var scrollScreen_1 = require("./directive/scrollScreen");
 /**
  * @description 全局挂载bus
  * @param { App<Element> } app app实例
@@ -21,3 +22,11 @@ function setupImageLazyLoading(app) {
     app.directive('imageLazyLoading', imageLazyLoading_1.ImageLazyLoading);
 }
 exports.setupImageLazyLoading = setupImageLazyLoading;
+/**
+ * @description 全局挂在页面滚动指令
+ * @param { App<Element> } app app实例
+ */
+function setupScrollScreen(app) {
+    app.directive('scrollScreen', scrollScreen_1.scrollScreen);
+}
+exports.setupScrollScreen = setupScrollScreen;

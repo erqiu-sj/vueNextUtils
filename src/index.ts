@@ -1,7 +1,7 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:18:40
- * @LastEditTime : 2021-08-12 14:50:33
+ * @LastEditTime : 2021-08-12 15:03:45
  * @FilePath     : /vue-next-utils/src/index.ts
  * @Description  :
  */
@@ -11,6 +11,5 @@ import { useDestroyBus, useDestroyBusOnUnmounted } from './lifeCycle/useDestroyB
 import { useEffect } from './lifeCycle/useEffect'
 import { setupBus, setupImageLazyLoading, setupScrollScreen } from './register'
 import type { scrollScreenOptionsTypes } from './directive/scrollScreen'
-
 export { useBus, ImageLazyLoading, useDestroyBus, useDestroyBusOnUnmounted, useEffect, setupBus, setupImageLazyLoading, setupScrollScreen }
 export type { scrollScreenOptionsTypes }

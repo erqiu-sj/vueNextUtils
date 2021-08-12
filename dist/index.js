@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.setupImageLazyLoading = exports.setupBus = exports.useEffect = exports.useDestroyBusOnUnmounted = exports.useDestroyBus = exports.ImageLazyLoading = exports.useBus = void 0;
+exports.setupScrollScreen = exports.setupImageLazyLoading = exports.setupBus = exports.useEffect = exports.useDestroyBusOnUnmounted = exports.useDestroyBus = exports.ImageLazyLoading = exports.useBus = void 0;
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:18:40
- * @LastEditTime : 2021-08-12 11:38:16
+ * @LastEditTime : 2021-08-12 14:50:33
  * @FilePath     : /vue-next-utils/src/index.ts
  * @Description  :
  */
@@ -20,3 +20,4 @@ Object.defineProperty(exports, "useEffect", { enumerable: true, get: function ()
 var register_1 = require("./register");
 Object.defineProperty(exports, "setupBus", { enumerable: true, get: function () { return register_1.setupBus; } });
 Object.defineProperty(exports, "setupImageLazyLoading", { enumerable: true, get: function () { return register_1.setupImageLazyLoading; } });
+Object.defineProperty(exports, "setupScrollScreen", { enumerable: true, get: function () { return register_1.setupScrollScreen; } });
