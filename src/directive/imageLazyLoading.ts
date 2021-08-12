@@ -1,12 +1,12 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:38:40
- * @LastEditTime : 2021-08-12 10:49:38
+ * @LastEditTime : 2021-08-12 15:33:05
  * @FilePath     : /vue-next-utils/src/directive/ImageLazyLoading.ts
  * @Description  :
  */
 
-import type { Directive } from '@vue/runtime-core';
+import type { Directive } from 'vue';
 
 const ImageLazyLoading: Directive = {
 	beforeMount(el, bind) {

@@ -1,11 +1,11 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:30:40
- * @LastEditTime : 2021-08-12 14:49:39
+ * @LastEditTime : 2021-08-12 15:32:43
  * @FilePath     : /vue-next-utils/src/register.ts
  * @Description  :
  */
-import type { App } from '@vue/runtime-dom'
+import type { App } from 'vue'
 import { Bus } from './communication/bus'
 import { ImageLazyLoading } from './directive/imageLazyLoading'
 import { scrollScreen } from './directive/scrollScreen'

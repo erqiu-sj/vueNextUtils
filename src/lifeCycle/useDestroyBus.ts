@@ -1,11 +1,11 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:45:53
- * @LastEditTime : 2021-08-12 11:02:53
+ * @LastEditTime : 2021-08-12 15:33:50
  * @FilePath     : /vue-next-utils/src/lifeCycle/useDestroyBus.ts
  * @Description  :
  */
-import { onBeforeUnmount } from '@vue/runtime-core'
+import { onBeforeUnmount } from 'vue'
 import { useBus } from '../communication/bus'
 /**
  * @description 手动调用销毁bus中的事件回调函数

@@ -1,11 +1,11 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:26:00
- * @LastEditTime : 2021-08-12 14:50:55
+ * @LastEditTime : 2021-08-12 15:32:30
  * @FilePath     : /vue-next-utils/src/index.d.ts
  * @Description  :
  */
-import { WatchSource } from '@vue/runtime-core'
+import { WatchSource } from 'vue'
 import { App } from '@vue/runtime-dom'
 
 

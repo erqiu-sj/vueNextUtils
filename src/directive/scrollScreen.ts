@@ -1,11 +1,11 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 14:23:12
- * @LastEditTime : 2021-08-12 14:48:21
+ * @LastEditTime : 2021-08-12 15:33:13
  * @FilePath     : /vue-next-utils/src/directive/scrollScreen.ts
  * @Description  : scrollScreen
  */
-import type { Directive } from '@vue/runtime-core'
+import type { Directive } from 'vue'
 
 interface scrollScreenOptionsTypes {
 	left: number

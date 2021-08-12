@@ -5,7 +5,7 @@
  * @FilePath     : /vue-next-utils/src/communication/bus.ts
  * @Description  :
  */
-import { getCurrentInstance, ComponentInternalInstance } from '@vue/runtime-core'
+import { getCurrentInstance, ComponentInternalInstance } from 'vue'
 
 class Bus {
 	eventList: Map<string, Function[]>;

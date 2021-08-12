@@ -1,12 +1,12 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:19:41
- * @LastEditTime : 2021-08-12 10:27:43
+ * @LastEditTime : 2021-08-12 15:34:41
  * @FilePath     : /vue-next-utils/src/lifeCycle/useEffect.ts
  * @Description  : useEffect
  */
 
-import { watch, onMounted, onBeforeUpdate, onBeforeUnmount, WatchSource } from '@vue/runtime-core';
+import { watch, onMounted, onBeforeUpdate, onBeforeUnmount, WatchSource } from 'vue';
 type MultiWatchSources = (WatchSource<unknown> | object)[];
 
 type baseCb = () => void;
