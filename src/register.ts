@@ -1,13 +1,14 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:30:40
- * @LastEditTime : 2021-08-12 10:50:56
+ * @LastEditTime : 2021-08-12 14:49:39
  * @FilePath     : /vue-next-utils/src/register.ts
  * @Description  :
  */
 import type { App } from '@vue/runtime-dom'
 import { Bus } from './communication/bus'
 import { ImageLazyLoading } from './directive/imageLazyLoading'
+import { scrollScreen } from './directive/scrollScreen'
 
 /**
  * @description 全局挂载bus
@@ -25,4 +26,11 @@ export function setupBus(app: App<Element>): void {
  */
 export function setupImageLazyLoading(app: App<Element>): void {
 	app.directive('imageLazyLoading', ImageLazyLoading);
+}
+/**
+ * @description 全局挂在页面滚动指令
+ * @param { App<Element> } app app实例
+ */
+export function setupScrollScreen(app: App<Element>): void {
+	app.directive('scrollScreen', scrollScreen)
 }

@@ -1,7 +1,7 @@
 /*
  * @Author       : 邱狮杰
  * @Date         : 2021-08-12 10:26:00
- * @LastEditTime : 2021-08-12 11:05:49
+ * @LastEditTime : 2021-08-12 14:50:55
  * @FilePath     : /vue-next-utils/src/index.d.ts
  * @Description  :
  */
@@ -44,3 +44,11 @@ export declare function useDestroyBus(destroyKey: unknown): boolean | never
 export declare function useDestroyBusOnUnmounted(destroyKey: string[]): void | never;
 export declare function useDestroyBusOnUnmounted(destroyKey: string): void | never;
 export declare function useDestroyBusOnUnmounted(destroyKey: unknown): void | never
+
+export declare function setupScrollScreen(app: App<Element>): void;
+
+export interface scrollScreenOptionsTypes {
+	left: number
+	top: number
+	run: boolean
+}
