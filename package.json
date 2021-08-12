@@ -10,7 +10,7 @@
     "toNpm": "npm config set registry https://registry.npmjs.org",
     "toTb": "npm config set registry https://registry.npm.taobao.org",
     "pushGithub": "git checkout main & git push github main",
-    "pushGitee": "github checkout master & git push origin master"
+    "pushGitee": "git checkout master & git push origin master"
   },
   "repository": {
     "type": "git",
